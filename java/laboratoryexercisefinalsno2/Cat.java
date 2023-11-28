@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package laboratoryexercisefinalsno2;
 
-/**
- *
- * @author Admin
- */
-public class Cat {
+public class Cat extends Pets {
     
+    @Override
+    public void Color(){
+        System.out.println("is a Black cat.]");
+    }
 }

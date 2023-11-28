@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package laboratoryexercisefinalsno2;
 
-/**
- *
- * @author Admin
- */
-public class Pets {
+abstract class Pets {
+    public abstract void Color();
     
+    public void Dog(){
+        System.out.print("[Baby ");
+    }
+    public void Cat(){
+        System.out.print("{Mingblack ");
+    }
 }
